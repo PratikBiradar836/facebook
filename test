@@ -1,0 +1,20 @@
+package Array;
+
+public class a1 {
+	static 
+	{
+		new a1();
+		System.out.println("static block");
+	}
+	a1()
+	{
+	//new a1();
+		System.out.println("From a1 Constractor");
+	}
+	public static void main(String[] args) {
+		a1 a  = new a1();
+		
+		System.out.println("end Khatam ");
+	}
+
+}
